@@ -178,7 +178,7 @@ class OctoPrintOutputDevice(NetworkedPrinterOutputDevice):
     #  send the ip address with zeroconf
     @pyqtProperty(str, constant=True)
     def address(self):
-        return 
+        return ""
 
     ## port of this instance
     @pyqtProperty(int, constant=True)
